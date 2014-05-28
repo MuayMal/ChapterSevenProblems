@@ -15,11 +15,14 @@ namespace ConsoleApplication1
             Pizza pizza = new Pizza(12);
             pizza.Name = "Pepperoni";
 
-            pizza.Diameter = double d;
-            pizza.Price = dou
+            double d = pizza.Diameter;
+            double p = pizza.Price;
 
 
-            Console.WriteLine(pizza);
+            
+            Console.Write("{0}in ",d);
+            Console.WriteLine(pizza.Name);
+            Console.WriteLine(p);
         }
     }
 }
