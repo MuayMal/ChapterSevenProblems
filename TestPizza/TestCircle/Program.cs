@@ -18,21 +18,24 @@ namespace TestCircle
             circle1.Radius = 2;
 
 
-            Console.WriteLine("Area: {0}",circle.Area);
-            Console.WriteLine("Diametercircle.Diameter);
-            Console.WriteLine(circle.Radius);
+            Console.WriteLine("Area: {0}",circle.Area.ToString("N"));
+            Console.WriteLine("Radius: {0}", circle.Radius);
+            Console.WriteLine("Diameter: {0}",circle.Diameter);
+            
 
             Console.WriteLine();
 
-            Console.WriteLine(circle1.Area);
-            Console.WriteLine(circle1.Diameter);
-            Console.WriteLine(circle1.Radius);
+            Console.WriteLine("Area: {0}",circle1.Area.ToString("N"));
+            Console.WriteLine("Radius: {0}", circle1.Radius);
+            Console.WriteLine("Diameter: {0}",circle1.Diameter);
+            
 
             Console.WriteLine();
 
-            Console.WriteLine(circle2.Area);
-            Console.WriteLine(circle2.Diameter);
-            Console.WriteLine(circle2.Radius);
+            Console.WriteLine("Area: {0}",circle2.Area.ToString("N"));
+            Console.WriteLine("Radius: {0}", circle2.Radius);
+            Console.WriteLine("Diameter: {0}",circle2.Diameter);
+            
             
 
 
